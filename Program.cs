@@ -24,6 +24,17 @@
             {
                 Console.WriteLine("Du får tyvärr inte komma på evenemanget");
             }
+
+            bool youGotATicket = true;
+            if (age >= 18 && age <= 40 && length >= 160.0 && youGotATicket)
+            {
+                Console.WriteLine("Grattis! Du har en biljett");
+            }
+            else
+            {
+                Console.WriteLine("Tyvärr, " + name +". Du har inte en biljett");
+            }
+            
         }
 
         
